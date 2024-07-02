@@ -6,8 +6,8 @@ import { Component } from '@angular/core';
   imports: [],
   template: `
   <ul>
-    @for (game of games; track game.id){ 
-
+    @for (game of games; track game.id){  
+      <li>{{game.name}}</li>
     }
 </ul>
   `,
